@@ -1,0 +1,140 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 07 May 2026 08:17:22 GMT
+ */
+
+:root {
+  --bc-state-unavailable: #D1D5DB; /* Data is not available */
+  --bc-state-stale: #FFB900; /* Data is outdated */
+  --bc-state-live: #00E400; /* Data is current and live */
+  --bc-region-asia-pacific: #23BCED; /* Asia-Pacific — preliminary assignment (light blue) */
+  --bc-region-europe: #AC4399; /* Europe — preliminary assignment (purple) */
+  --bc-region-latin-america: #F55200; /* Latin America — preliminary assignment (tangerine) */
+  --bc-region-africa: #2BCDB0; /* Africa — confirmed from brand guide (mint) */
+  --bc-env-pollutant-co: CO; /* Carbon monoxide */
+  --bc-env-pollutant-so2: SO₂; /* Sulfur dioxide */
+  --bc-env-pollutant-no2: NO₂; /* Nitrogen dioxide */
+  --bc-env-pollutant-o3: O₃; /* Ozone */
+  --bc-env-pollutant-pm10: PM10; /* Coarse particulate matter */
+  --bc-env-pollutant-pm25: PM2.5; /* Fine particulate matter */
+  --bc-aqi-hazardous-text: #65001C;
+  --bc-aqi-hazardous-bg: #FDF0F3;
+  --bc-aqi-hazardous-indicator: #7E0023; /* AQI 301+ — Hazardous */
+  --bc-aqi-very-unhealthy-text: #72327A;
+  --bc-aqi-very-unhealthy-bg: #F8F0F9;
+  --bc-aqi-very-unhealthy-indicator: #8F3F97; /* AQI 201-300 — Very Unhealthy */
+  --bc-aqi-unhealthy-text: #CC0000;
+  --bc-aqi-unhealthy-bg: #FFF0F0;
+  --bc-aqi-unhealthy-indicator: #FF0000; /* AQI 151-200 — Unhealthy */
+  --bc-aqi-unhealthy-sensitive-text: #CC6500;
+  --bc-aqi-unhealthy-sensitive-bg: #FFF5E6;
+  --bc-aqi-unhealthy-sensitive-indicator: #FF7E00; /* AQI 101-150 — Unhealthy for Sensitive Groups */
+  --bc-aqi-moderate-text: #8B8000;
+  --bc-aqi-moderate-bg: #FFFFF0;
+  --bc-aqi-moderate-indicator: #FFFF00; /* AQI 51-100 — Moderate */
+  --bc-aqi-good-text: #006400;
+  --bc-aqi-good-bg: #F0FFF0;
+  --bc-aqi-good-indicator: #00E400; /* AQI 0-50 — Good */
+  --bc-typography-body-smaller-wide-line-height: 24px;
+  --bc-typography-body-smaller-wide-font-size: 16px;
+  --bc-typography-body-smaller-sm-line-height: 22px;
+  --bc-typography-body-smaller-sm-font-size: 14px;
+  --bc-typography-body-smaller-base-line-height: 18px;
+  --bc-typography-body-smaller-base-font-size: 12px;
+  --bc-typography-body-small-wide-line-height: 26px;
+  --bc-typography-body-small-wide-font-size: 18px;
+  --bc-typography-body-small-sm-line-height: 24px;
+  --bc-typography-body-small-sm-font-size: 16px;
+  --bc-typography-body-small-base-line-height: 20px;
+  --bc-typography-body-small-base-font-size: 14px;
+  --bc-typography-body-wide-line-height: 28px;
+  --bc-typography-body-wide-font-size: 20px;
+  --bc-typography-body-sm-line-height: 26px;
+  --bc-typography-body-sm-font-size: 18px;
+  --bc-typography-body-base-line-height: 24px;
+  --bc-typography-body-base-font-size: 16px;
+  --bc-typography-title-sub-wide-line-height: 32px;
+  --bc-typography-title-sub-wide-font-size: 26px;
+  --bc-typography-title-sub-sm-line-height: 32px;
+  --bc-typography-title-sub-sm-font-size: 22px;
+  --bc-typography-title-sub-base-line-height: 24px;
+  --bc-typography-title-sub-base-font-size: 18px;
+  --bc-typography-title-small-wide-line-height: 42px;
+  --bc-typography-title-small-wide-font-size: 34px;
+  --bc-typography-title-small-sm-line-height: 30px;
+  --bc-typography-title-small-sm-font-size: 24px;
+  --bc-typography-title-small-base-line-height: 26px;
+  --bc-typography-title-small-base-font-size: 20px;
+  --bc-typography-title-medium-wide-line-height: 50px;
+  --bc-typography-title-medium-wide-font-size: 46px;
+  --bc-typography-title-medium-sm-line-height: 38px;
+  --bc-typography-title-medium-sm-font-size: 34px;
+  --bc-typography-title-medium-base-line-height: 32px;
+  --bc-typography-title-medium-base-font-size: 24px;
+  --bc-typography-title-large-wide-line-height: 82px;
+  --bc-typography-title-large-wide-font-size: 84px;
+  --bc-typography-title-large-sm-line-height: 70px;
+  --bc-typography-title-large-sm-font-size: 64px;
+  --bc-typography-title-large-base-line-height: 48px;
+  --bc-typography-title-large-base-font-size: 38px;
+  --bc-font-weight-bold: 800; /* Söhne Fett */
+  --bc-font-weight-semibold: 600; /* Söhne Halbfett */
+  --bc-font-weight-medium: 500; /* Söhne Kräftig */
+  --bc-font-weight-regular: 400; /* Söhne Buch */
+  --bc-font-family-fallback: Verdana, sans-serif; /* System fallback stack */
+  --bc-font-family-primary: Söhne; /* Primary typeface — licensed, loaded from design-build repo */
+  --bc-spacing-max: 200px;
+  --bc-spacing-xxl: 120px;
+  --bc-spacing-xl: 80px;
+  --bc-spacing-lg: 60px;
+  --bc-spacing-md: 40px;
+  --bc-spacing-sm: 20px;
+  --bc-spacing-xs: 10px;
+  --bc-color-border-default: #d1d5db; /* Placeholder — Arne's --lightgrey was undefined, using neutral grey */
+  --bc-color-primitive-white: #ffffff;
+  --bc-color-primitive-black: #000000;
+  --bc-color-primitive-danger-amber: #ffb900; /* System warning amber */
+  --bc-color-primitive-error-red: #f05252; /* System error red */
+  --bc-color-primitive-light-mint: #baf0e6; /* Light Mint */
+  --bc-color-primitive-mint: #2bcdb0; /* Mint — Africa regional colour */
+  --bc-color-primitive-grey: #f3f8fe; /* Light grey — subtle UI surface */
+  --bc-color-primitive-acid-yellow: #e8f000; /* Acid Yellow — brand palette */
+  --bc-color-primitive-rich-green: #03ab3d; /* Rich Green — success feedback */
+  --bc-color-primitive-fuchsia: #f357ca; /* Fuchsia — brand palette */
+  --bc-color-primitive-tangerine: #f55200; /* Tangerine — error feedback */
+  --bc-color-primitive-purple: #ac4399; /* Purple — brand palette */
+  --bc-color-primitive-blue-pressed: #059ecf; /* Pressed/active state blue */
+  --bc-color-primitive-darker-blue: #002a5b; /* Darker Blue — form input backgrounds */
+  --bc-color-primitive-light-blue: #23bced; /* Light Blue — hover state */
+  --bc-color-primitive-dark-blue: #003574; /* Dark Blue — used for text and accent */
+  --bc-color-primitive-bc-blue: #0071c7; /* Primary brand colour — BC Blue */
+  --bc-breakpoint-max: 1880px; /* min-width */
+  --bc-breakpoint-wide: 1600px; /* min-width AND min-height: 1600px — dual gate */
+  --bc-breakpoint-xxl: 1441px; /* min-width */
+  --bc-breakpoint-xl: 1281px; /* min-width */
+  --bc-breakpoint-lg: 1080px; /* min-width */
+  --bc-breakpoint-md: 980px; /* min-width */
+  --bc-breakpoint-sm: 780px; /* min-width — primary responsive gate */
+  --bc-breakpoint-xs: 640px; /* min-width */
+  --bc-typography-body-smaller-font-weight: var(--bc-font-weight-regular);
+  --bc-typography-body-small-font-weight: var(--bc-font-weight-regular);
+  --bc-typography-body-font-weight: var(--bc-font-weight-regular);
+  --bc-typography-title-sub-font-weight: var(--bc-font-weight-semibold);
+  --bc-typography-title-small-font-weight: var(--bc-font-weight-medium);
+  --bc-typography-title-medium-font-weight: var(--bc-font-weight-medium);
+  --bc-typography-title-large-font-weight: var(--bc-font-weight-medium);
+  --bc-color-region-asia-pacific: var(--bc-color-primitive-light-blue); /* Asia-Pacific — preliminary assignment from brand palette */
+  --bc-color-region-europe: var(--bc-color-primitive-purple); /* Europe — preliminary assignment from brand palette */
+  --bc-color-region-latin-america: var(--bc-color-primitive-tangerine); /* Latin America — preliminary assignment from brand palette */
+  --bc-color-region-africa: var(--bc-color-primitive-mint); /* Africa regional colour — confirmed */
+  --bc-color-feedback-warning: var(--bc-color-primitive-danger-amber); /* Warning feedback */
+  --bc-color-feedback-success: var(--bc-color-primitive-rich-green); /* Success feedback */
+  --bc-color-feedback-error: var(--bc-color-primitive-tangerine); /* Error feedback — uses tangerine, not errorRed */
+  --bc-color-interaction-active: var(--bc-color-primitive-blue-pressed); /* Active/pressed state */
+  --bc-color-interaction-hover: var(--bc-color-primitive-light-blue); /* Hover state */
+  --bc-color-surface-subtle: var(--bc-color-primitive-grey); /* Subtle UI surface */
+  --bc-color-surface-default: var(--bc-color-primitive-white); /* Default background */
+  --bc-color-text-default: var(--bc-color-primitive-dark-blue); /* Default text colour */
+  --bc-color-brand-accent: var(--bc-color-primitive-dark-blue); /* Accent / secondary brand */
+  --bc-color-brand-primary: var(--bc-color-primitive-bc-blue); /* Primary brand colour */
+}

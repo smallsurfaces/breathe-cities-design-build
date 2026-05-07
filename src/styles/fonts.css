@@ -1,0 +1,78 @@
+/**
+ * Söhne @font-face declarations
+ *
+ * Licensed typeface from Klim Type Foundry.
+ * Source: Klim Orders 23110458 + 23110531 (WOFF2 only).
+ * Weights mapped to BC design tokens: --bc-font-weight-regular (400),
+ * --bc-font-weight-medium (500), --bc-font-weight-semibold (600),
+ * --bc-font-weight-bold (800).
+ * Font stack convention from Arne/Ahoy brand handoff: 'Söhne', Verdana, sans-serif.
+ */
+
+/* Söhne Buch — weight 400 (regular) */
+@font-face {
+  font-family: "Söhne";
+  src: url("/fonts/soehne-buch.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Söhne";
+  src: url("/fonts/soehne-buch-kursiv.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Söhne Kräftig — weight 500 (medium) */
+@font-face {
+  font-family: "Söhne";
+  src: url("/fonts/soehne-kraftig.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Söhne";
+  src: url("/fonts/soehne-kraftig-kursiv.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Söhne Halbfett — weight 600 (semibold) */
+@font-face {
+  font-family: "Söhne";
+  src: url("/fonts/soehne-halbfett.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Söhne";
+  src: url("/fonts/soehne-halbfett-kursiv.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Söhne Fett — weight 800 (bold) */
+@font-face {
+  font-family: "Söhne";
+  src: url("/fonts/soehne-fett.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Söhne";
+  src: url("/fonts/soehne-fett-kursiv.woff2") format("woff2");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
